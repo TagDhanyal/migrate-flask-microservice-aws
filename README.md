@@ -1,12 +1,7 @@
-# private-rest-api
+# Secured-Rest-Api
 ---
 
 This solution uses Terraform to deliver a CodePipeline environment for a Python Flask API application on Amazon Elastic Container Service (ECS) using an Amazon Elastic Compute Cloud (EC2) launch type for the ECS service task definition.  The solution loads the codebase to AWS CodeCommit, leverages AWS CodeBuild to create the Docker image for the container, and uses AWS CodeDeploy to launch the ECS service and manage the solution deployment.    
-
-# Motivation
----
-
-Data has become the language of business. Organizations leverage data to better understand and deliver value to their Customers. As a result, there is a growing need in many Organizations for flexible patterns that can be leveraged to develop new applications and functionality to interact with their data. APIs, or Application Program Interfaces, are a utility which can help to enable organizations to continuously deliver customer value. API’s have grown in popularity as organizations have been increasingly designing their applications as microservices. The microservice model configures an application as a suite of small services. Each service runs its own processes and is independently deployable. API’s work in conjunction with microservices as they can be leveraged to connect services together, provide a programmable interface for developers to access data, and provide connectivity to existing legacy systems. 
 
 # AWS Services Used
 ---
